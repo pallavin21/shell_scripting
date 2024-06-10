@@ -1,7 +1,7 @@
 #!/bin/bash
 
 a="apache2"
-systemctl daemon-reload
+sudo systemctl is-active $a
 if
         sudo systemctl status $a = active 
 then
